@@ -1,0 +1,40 @@
+{
+	"name": "roblox-ts-game",
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"tree": {
+		"$className": "Folder",
+        "Shared": {
+            "rbxts_include": {
+                "$path": "include",
+                "node_modules": {
+                    "$className": "Folder",
+                    "@rbxts": {
+                        "$path": "node_modules/@rbxts"
+                    },
+                    "@easy-games": {
+                        "$path": "node_modules/@easy-games"
+                    }
+                }
+            },
+            "TS": {
+                "$path": "../Bundles/Shared"
+            }
+        },
+        "Client": {
+            "TS": {
+                "$path": "../Bundles/Client"
+            }
+        },
+        "Server": {
+            "TS": {
+                "$path": "../Bundles/Server"
+            }
+        },
+        "Imports": {
+            "$path": "../Bundles/Imports"
+        }
+	}
+}

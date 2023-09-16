@@ -1,0 +1,32 @@
+{
+    "Flamework Controller": {
+        "prefix": "flamecontroller",
+        "body": [
+            "import { Controller, OnStart } from \"@easy-games/flamework-core\";",
+            "",
+            "@Controller({})",
+            "export class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} implements OnStart {",
+            "\tOnStart(): void {",
+            "\t\t${0}",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": ""
+    },
+	"Flamework Service": {
+        "prefix": "flameservice",
+        "body": [
+            "import { Service, OnStart } from \"@easy-games/flamework-core\";",
+            "",
+            "@Service({})",
+            "export class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} implements OnStart {",
+            "\tOnStart(): void {",
+            "\t\t${0}",
+            "\t}",
+            "}",
+            ""
+        ],
+        "description": ""
+    }
+}

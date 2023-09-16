@@ -212,6 +212,16 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.toolchain.macos-x86_64-linux-x86_64": {
+      "version": "2.0.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.7",
+        "com.unity.sysroot.linux-x86_64": "2.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.toolchain.win-x86_64-linux-x86_64": {
       "version": "2.0.6",
       "depth": 0,
@@ -252,7 +262,7 @@
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.scriptablebuildpipeline": "1.21.0"
       },
-      "hash": "b1281848bce3d7af6d01f81db3934502137ae45b"
+      "hash": "5919152f753ebeede14061f7dd63fc12b238876e"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

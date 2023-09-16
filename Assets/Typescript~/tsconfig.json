@@ -1,0 +1,51 @@
+{
+	"compilerOptions": {
+		// required
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"jsx": "react",
+		"jsxFactory": "Roact.createElement",
+		"jsxFragmentFactory": "Roact.Fragment",
+		"module": "commonjs",
+		"moduleResolution": "Node",
+		"noLib": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleDetection": "force",
+		"strict": true,
+		"target": "ESNext",
+		"typeRoots": ["node_modules/@rbxts", "node_modules/@easy-games", "../Bundles/Types~"],
+
+		// configurable
+		"rootDirs": ["src/Server", "src/Client", "src/Shared"],
+		"outDir": "../Bundles",
+        "paths": {
+            "Imports/*": ["../../Bundles/Types~/*"],
+            "*": [
+                "./*"
+            ]
+        },
+		"baseUrl": "src",
+		"incremental": true,
+		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
+        "skipLibCheck": false,
+		"plugins": [
+            { "transform": "@easy-games/unity-component-transformer" },
+			{ "transform": "@easy-games/unity-flamework-transformer" }
+		]
+	},
+    "include": [
+        "../Bundles/Types~/**/*.d.ts",
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+	"rbxts": {
+        "rojo": "./default.project.json",
+		"includePath": "../Bundles/Shared/Resources/include",
+        "type": "game"
+	}
+}
