@@ -15,6 +15,7 @@ Install the following modules when prompted:
 ## Setting up the TypeScript Project
 Note: you must open the project in Unity before building the Typescript.
 
+Use Git Bash on PC, or Terminal on Mac:
 First, `cd` into the TypeScript project directory.
 ```
 cd Assets/Typescript~
