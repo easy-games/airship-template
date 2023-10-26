@@ -1,0 +1,33 @@
+import { OnStart } from "../../../../node_modules/@easy-games/flamework-core";
+import { DirectMessageController } from "../../MainMenuControllers/Social/DirectMessages/DirectMessageController";
+import { FriendsController } from "../../MainMenuControllers/Social/FriendsController";
+import { SocketController } from "../../MainMenuControllers/Socket/SocketController";
+import { ChatCommand } from "../../../Shared/Commands/ChatCommand";
+import { LocalEntityController } from "../Character/LocalEntityController";
+import { CoreUIController } from "../UI/CoreUIController";
+export declare class ChatController implements OnStart {
+    private readonly localEntityController;
+    private readonly coreUIController;
+    private readonly socketController;
+    private readonly directMessageController;
+    private readonly friendsController;
+    private content;
+    private chatMessagePrefab;
+    private inputField;
+    private selected;
+    private selectedBin;
+    private chatMessageElements;
+    private prevSentMessages;
+    private historyIndex;
+    private commands;
+    constructor(localEntityController: LocalEntityController, coreUIController: CoreUIController, socketController: SocketController, directMessageController: DirectMessageController, friendsController: FriendsController);
+    RegisterCommand(command: ChatCommand): void;
+    OnStart(): void;
+    private CheckIfShouldHide;
+    ShowAllChatMessages(): void;
+    SubmitInputField(): void;
+    SendChatMessage(message: string): void;
+    RenderChatMessage(message: string): void;
+    ClearChatMessages(): void;
+    IsChatFocused(): boolean;
+}

@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AirshipCharacterFace
+  m_Shader: {fileID: 4800000, guid: 6330d0f14dc3c884ea990fa91a7bd441, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - EXPLICIT_MAPS
+  - EXPLICIT_MAPS_ON
+  - METAL_ON_ON
+  - NUM_LIGHTS_LIGHTS0
+  - SLIDER_OVERRIDE
+  - SLIDER_OVERRIDE_ON
+  - TRIPLANAR_STYLE_OFF
+  - _DSTBLEND_ONEMINUSSRCALPHA
+  - _LIGHTS_LIGHTS0
+  - _SRCBLEND_ONE
+  - _TRIPLANAR_LOCAL
+  - _TRIPLANAR_TRIPLANAR_LOCAL
+  - _ZWRITE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeTex:
+        m_Texture: {fileID: 8900000, guid: 98fc12523466e9841bcac080b0b16b28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f8134b93858cd4ed5a2e43de8939e84c, type: 3}
+        m_Scale: {x: 1.05, y: 1.05}
+        m_Offset: {x: -0.025, y: -0.025}
+    - _MetalTex:
+        m_Texture: {fileID: 2800000, guid: c68c0c05d862ba24c874a924c7bb4a33, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 2abca1aec94ba444a90706324f3f4bb3, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughTex:
+        m_Texture: {fileID: 2800000, guid: 95a55d3cd375a364ab7a3244ab8270ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 2800000, guid: 781266cb27b0c364b8e44e55f768a517, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - AO_ON: 0
+    - EMISSIVE: 0
+    - EXPLICIT_MAPS: 1
+    - METAL_ON: 1
+    - NUM_LIGHTS: 0
+    - OVERRIDE: 0
+    - POINT_FILTER: 0
+    - RIM_LIGHT: 0
+    - SLIDER_OVERRIDE: 1
+    - TRIPLANAR_STYLE: 0
+    - VERTEX_LIGHT: 0
+    - _Alpha: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _EXPLICIT_MAPS: 1
+    - _Emissive: 0
+    - _EmissiveMix: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IncidentStrength: 1
+    - _Lights: 0
+    - _MetalOverride: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OverrideStrength: 0
+    - _POINT_FILTER: 1
+    - _Parallax: 0.02
+    - _RimIntensity: 0.5
+    - _RimPower: 5
+    - _RoughOverride: 0.75
+    - _SLIDER_OVERRIDE: 1
+    - _SkyShineStrength: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SunScale: 1
+    - _Triplanar: 1
+    - _TriplanarScale: 0
+    - _UVSec: 0
+    - _VERTEX_LIGHT: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _IncidentColor: {r: 0.4, g: 0.75, b: 1, a: 1}
+    - _OverrideColor: {r: 2, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.990566, g: 0.5197755, b: 0.36912602, a: 1}
+    - _SkyShine: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.9811321, g: 0.5970096, b: 0.5970096, a: 1}
+  m_BuildTextureStacks: []

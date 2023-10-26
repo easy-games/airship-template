@@ -1,4 +1,4 @@
-import { RemoteEvent } from "Imports/Core/Shared/Network/RemoteEvent";
+import { RemoteEvent } from "@Easy/Core/Shared/Network/RemoteEvent";
 
 export const Network = {
 	ClientToServer: {

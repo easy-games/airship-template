@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AvatarMask_Root
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Airship_rig
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/neck
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/neck/head
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L/hand.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L/hand.L/f_index.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L/hand.L/f_middle.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L/hand.L/f_pinky.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L/hand.L/f_ring.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L/hand.L/object.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.L/upper_arm.L/forearm.L/hand.L/thumb.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R/hand.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R/hand.R/f_index.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R/hand.R/f_middle.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R/hand.R/f_pinky.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R/hand.R/f_ring.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R/hand.R/object.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/spine.middle/spine.top/shoulder.R/upper_arm.R/forearm.R/hand.R/thumb.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.L/shin.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.L/shin.L/foot.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.L/shin.L/foot.L/toe.L
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.R/shin.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.R/shin.R/foot.R
+    m_Weight: 1
+  - m_Path: Airship_rig/spine.root/thigh.R/shin.R/foot.R/toe.R
+    m_Weight: 1
+  - m_Path: Body
+    m_Weight: 0
+  - m_Path: Body_FPS
+    m_Weight: 0
+  - m_Path: Face
+    m_Weight: 0
+  - m_Path: Head
+    m_Weight: 0

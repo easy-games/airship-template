@@ -1,0 +1,534 @@
+
+<!-- There are special maps available -->
+<!-- texture_n  Normal map  -->
+<!-- texture_r  Roughness map, 0 is glossy/reflective, 0.25 has a small specular circle, 0.5 big specular circle, 1.0 fully rough (matte)  -->
+<!-- texture_m  Metal map, 0 is non metallic, 1 is metallic.  Metal has colored anodized specular and shine -->
+<!-- texture_e  Emissive map, 1 is emissive/fullbright. If you want it to bloom, the underlaying diffuse color needs to be relatively bright -->
+<!-- if you do not supply the maps, you can specify a constant value directly using <Metallic>0</<Metallic> or <Roughness>1</Roughness> or <Emissive>1</Emissive> etc -->
+
+<Blocks>
+  <RootAssetPath>@Easy/Core/Shared/Resources/VoxelWorld</RootAssetPath>
+
+  <Block>
+    <Index>1</Index>
+    <Name>Grass</Name>
+<!--    <TopMaterial>grass/GrassTilingGenshin</TopMaterial>-->
+<!--    <TopTexture>liamgrass.t</TopTexture>-->
+<!--    <BottomTexture>liamgrass.t</BottomTexture>-->
+<!--    <SideTexture>liamgrass.s</SideTexture>-->
+    <Material>StylizedGrass</Material>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>2</Minecraft>
+    <Brightness>1</Brightness>
+  </Block>
+
+  <Block>
+    <Index>2</Index>
+    <Name>Dirt</Name>
+<!--    <TopTexture>dirt.s</TopTexture>-->
+<!--    <SideTexture>dirt.s</SideTexture>-->
+    <Material>StylizedDirt</Material>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>0.75</Roughness>
+    <Minecraft>3</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>4</Index>
+    <Name>Stone</Name>
+<!--    <TopTexture>stone.s</TopTexture>-->
+<!--    <SideTexture>stone.s</SideTexture>-->
+<!--    <TopTexture>rock_test_C</TopTexture>-->
+<!--    <SideTexture>rock_test_C</SideTexture>-->
+    <Material>StylizedStone</Material>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>2</Roughness>
+    <Minecraft>1,43,43:8</Minecraft>
+    <Brightness>1.8</Brightness>
+  </Block>
+
+  <Block>
+    <Index>26</Index>
+    <Name>Stone Brick</Name>
+    <Material>StylizedStoneDark</Material>
+<!--    <TopTexture>stone_brick.s</TopTexture>-->
+<!--    <SideTexture>stone_brick.s</SideTexture>-->
+    <Solid>true</Solid>
+    <Minecraft>98,97:2</Minecraft>
+    <Brightness>1</Brightness>
+  </Block>
+
+  <Block>
+    <Index>6</Index>
+    <Name>Oak Planks</Name>
+<!--    <TopTexture>plank_oak.s</TopTexture>-->
+<!--    <SideTexture>plank_oak.s</SideTexture>-->
+    <Material>StylizedWoodPlanks</Material>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>0.6</Roughness>
+    <Minecraft>5</Minecraft>
+    <Brightness>1.7</Brightness>
+  </Block>
+
+  <Block>
+    <Index>7</Index>
+    <Name>Oak Log</Name>
+<!--    <TopTexture>log_oak.td</TopTexture>-->
+<!--    <SideTexture>log_oak.s</SideTexture>-->
+    <Material>StylizedWood</Material>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>17</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>12</Index>
+    <Name>Cobblestone</Name>
+    <Material>StylizedStone</Material>
+<!--    <TopTexture>cobblestone.s</TopTexture>-->
+<!--    <SideTexture>cobblestone.s</SideTexture>-->
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>4</Minecraft>
+    <Brightness>1.8</Brightness>
+  </Block>
+
+  <Block>
+    <Index>14</Index>
+    <Name>Grimstone</Name>
+    <TopTexture>grim_stone.s</TopTexture>
+    <SideTexture>grim_stone.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>16</Index>
+    <Name>Emerald Block</Name>
+    <TopTexture>emerald_block.s</TopTexture>
+    <SideTexture>emerald_block.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0.5</Metallic>
+    <Roughness>0.5</Roughness>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>17</Index>
+    <Name>TNT</Name>
+    <TopTexture>tnt.t</TopTexture>
+    <SideTexture>tnt.s</SideTexture>
+    <BottomTexture>tnt.d</BottomTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>0</Roughness>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>19</Index>
+    <Name>Stairs</Name>
+    <Mesh>Stairs/stairs</Mesh>
+    <MeshTexture>stairs</MeshTexture>
+    <Solid>false</Solid>
+    <AmbientOcclussion>true</AmbientOcclussion>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>20</Index>
+    <Name>Andesite</Name>
+    <Material>StylizedStone</Material>
+<!--    <TopTexture>andesite.s</TopTexture>-->
+<!--    <SideTexture>andesite.s</SideTexture>-->
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>1:5,1:1</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>21</Index>
+    <Name>Light Green Clay</Name>
+    <TopTexture>clay_light_green.s</TopTexture>
+    <SideTexture>clay_light_green.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>159:13,18:1,251:13,251:5</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>22</Index>
+    <Name>Dark Green Clay</Name>
+    <TopTexture>clay_dark_green.s</TopTexture>
+    <SideTexture>clay_dark_green.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>159:5</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>23</Index>
+    <Name>Slate Brick</Name>
+    <TopTexture>slate_brick.s</TopTexture>
+    <SideTexture>slate_brick.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>159:11</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>24</Index>
+    <Name>Smooth Andesite</Name>
+    <TopTexture>andesite_smooth.s</TopTexture>
+    <SideTexture>andesite_smooth.s</SideTexture>
+<!--    <Material>stone/Stone1</Material>-->
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>1:6,1:2</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>27</Index>
+    <Name>Emerald Block</Name>
+    <TopTexture>emerald_block.s</TopTexture>
+    <SideTexture>emerald_block.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0.5</Metallic>
+    <Roughness>0.5</Roughness>
+    <Minecraft>133</Minecraft>
+    <Brightness>1</Brightness>
+  </Block>
+
+  <Block>
+    <Index>28</Index>
+    <Name>Diamond Block</Name>
+    <TopTexture>diamond_block.s</TopTexture>
+    <SideTexture>diamond_block.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0.5</Metallic>
+    <Roughness>0.5</Roughness>
+    <Minecraft>57</Minecraft>
+    <Brightness>1</Brightness>
+  </Block>
+
+  <Block>
+    <Index>29</Index>
+    <Name>Iron Block</Name>
+    <TopTexture>iron_block.s</TopTexture>
+    <SideTexture>iron_block.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0.5</Metallic>
+    <Roughness>0.5</Roughness>
+    <Minecraft>42</Minecraft>
+    <Brightness>1</Brightness>
+  </Block>
+
+  <Block>
+    <Index>30</Index>
+    <Name>Glass Block</Name>
+    <TopTexture>glass_block.s</TopTexture>
+    <SideTexture>glass_block.s</SideTexture>
+    <Material>glass_block</Material>
+    <Solid>false</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>0</Roughness>
+    <AmbientOcclussion>true</AmbientOcclussion>
+    <Minecraft>95</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>31</Index>
+    <Name>Bed</Name>
+    <Prefab>true</Prefab>
+  </Block>
+  <Block>
+    <Index>32</Index>
+    <Name>ChildOfBlock</Name>
+    <Prefab>true</Prefab>
+  </Block>
+  <Block>
+    <Index>33</Index>
+    <Name>White Wool</Name>
+    <TopTexture>wool_white.s</TopTexture>
+    <SideTexture>wool_white.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>35</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>34</Index>
+    <Name>Red Wool</Name>
+    <TopTexture>wool_red.s</TopTexture>
+    <SideTexture>wool_red.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>35:14</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>35</Index>
+    <Name>Blue Wool</Name>
+    <TopTexture>wool_blue.s</TopTexture>
+    <SideTexture>wool_blue.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>35:11</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>36</Index>
+    <Name>Green Wool</Name>
+    <TopTexture>wool_green.s</TopTexture>
+    <SideTexture>wool_green.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>35:13</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>37</Index>
+    <Name>Yellow Wool</Name>
+    <TopTexture>wool_yellow.s</TopTexture>
+    <SideTexture>wool_yellow.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>35:4</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>38</Index>
+    <Name>Obsidian</Name>
+    <TopTexture>obsidian.s</TopTexture>
+    <SideTexture>obsidian.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0.4</Metallic>
+    <Roughness>0.6</Roughness>
+    <Minecraft>49</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>50</Index>
+    <Name>Mushroom</Name>
+    <Mesh>Flower/SM_Pixelated_Mushroom_A</Mesh>
+    <MeshTexture>T_Pixel_Mushroom_A_D</MeshTexture>
+    <Solid>false</Solid>
+    <AmbientOcclussion>true</AmbientOcclussion>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>51</Index>
+    <Name>BushB</Name>
+    <Mesh>Flower/SM_Pixel_Bush_B</Mesh>
+    <MeshTexture>T_Bush_A_D</MeshTexture>
+    <Solid>false</Solid>
+    <AmbientOcclussion>true</AmbientOcclussion>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>52</Index>
+    <Name>FluffyGrass</Name>
+    <Mesh>Grass/GrassBushyPrefab</Mesh>
+    <MeshLod>Grass/GrassBushyPrefab_LOD</MeshLod>
+    <Material>GrassMaterialGrid</Material>
+    <Detail>true</Detail>
+    <Solid>false</Solid>
+    <Save>false</Save>
+    <AmbientOcclussion>false</AmbientOcclussion>
+  </Block>
+
+  <Block>
+    <Index>53</Index>
+    <Name>Spruce Log</Name>
+    <Material>StylizedWood</Material>
+<!--    <TopTexture>log_spruce.td</TopTexture>-->
+<!--    <SideTexture>log_spruce.s</SideTexture>-->
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>54,130</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+
+  <Block>
+    <Index>54</Index>
+    <Name>Clay</Name>
+    <TopTexture>clay.s</TopTexture>
+    <SideTexture>clay.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>55</Index>
+    <Name>White Clay</Name>
+    <TopTexture>clay_white.s</TopTexture>
+    <SideTexture>clay_white.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>1.1</Brightness>
+  </Block>
+  <Block>
+    <Index>56</Index>
+    <Name>Yellow Clay</Name>
+    <TopTexture>clay_yellow.s</TopTexture>
+    <SideTexture>clay_yellow.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>1.5</Brightness>
+  </Block>
+  <Block>
+    <Index>57</Index>
+    <Name>Black Clay</Name>
+    <TopTexture>clay_black.s</TopTexture>
+    <SideTexture>clay_black.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>58</Index>
+    <Name>Gray Clay</Name>
+    <TopTexture>clay_gray.s</TopTexture>
+    <SideTexture>clay_gray.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>59</Index>
+    <Name>Oak Leaf</Name>
+    <TopTexture>leaf_oak.s</TopTexture>
+    <SideTexture>leaf_oak.s</SideTexture>
+    <Solid>false</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+    <Minecraft>48</Minecraft>
+    <RandomRotation>true</RandomRotation>
+    <TileSet>TileSets/OakLeaf/Leaf</TileSet>
+  </Block>
+
+
+  <Block>
+    <Index>60</Index>
+    <Name>Brown Clay</Name>
+<!--    <TopTexture>clay_brown.s</TopTexture>-->
+<!--    <SideTexture>clay_brown.s</SideTexture>-->
+    <Material>StylizedDirtDark</Material>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+    <Minecraft>159:12</Minecraft>
+  </Block>
+  <Block>
+    <Index>61</Index>
+    <Name>Ceramic</Name>
+    <TopTexture>blastproof_ceramic.s</TopTexture>
+    <SideTexture>blastproof_ceramic.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+  </Block>
+  <Block>
+    <Index>62</Index>
+    <Name>Spruce Leaf</Name>
+    <TopTexture>leaf_oak.s</TopTexture>
+    <SideTexture>leaf_oak.s</SideTexture>
+    <Solid>false</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Brightness>2</Brightness>
+    <Minecraft>48:1</Minecraft>
+    <RandomRotation>true</RandomRotation>
+    <TileSet>TileSets/SpruceLeaf/Leaf</TileSet>
+  </Block>
+  <Block>
+    <Index>63</Index>
+    <Name>Brick</Name>
+    <TopTexture>brick.s</TopTexture>
+    <SideTexture>brick.s</SideTexture>
+    <Solid>true</Solid>
+    <Minecraft>45</Minecraft>
+    <Brightness>1.5</Brightness>
+  </Block>
+  <Block>
+    <Index>64</Index>
+    <Name>Cyan Wool</Name>
+    <TopTexture>wool_cyan.s</TopTexture>
+    <SideTexture>wool_cyan.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>35:9</Minecraft>
+    <Brightness>1.7</Brightness>
+  </Block>
+  <Block>
+    <Index>65</Index>
+    <Name>Grey Wool</Name>
+    <TopTexture>wool_grey.s</TopTexture>
+    <SideTexture>wool_grey.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>35:7</Minecraft>
+    <Brightness>1.7</Brightness>
+  </Block>
+  <Block>
+    <Index>66</Index>
+    <Name>Stone Tiles</Name>
+    <TopTexture>stone_tiles.s</TopTexture>
+    <SideTexture>stone_tiles.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>201</Minecraft>
+    <Brightness>1.7</Brightness>
+  </Block>
+  <Block>
+    <Index>67</Index>
+    <Name>Slate Tiles</Name>
+    <TopTexture>slate_tiles.s</TopTexture>
+    <SideTexture>slate_tiles.s</SideTexture>
+    <Solid>true</Solid>
+    <Metallic>0</Metallic>
+    <Roughness>1</Roughness>
+    <Minecraft>168:2</Minecraft>
+    <Brightness>2</Brightness>
+  </Block>
+</Blocks>
+

@@ -302,14 +302,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4feffba88dce746a2607f0ec6233b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_fileFullPath: shared/resources/ts/main
+  m_fileFullPath: Shared/Resources/TS/Main.lua
   m_error: 0
   m_yielded: 0
+  m_assetPath: Shared/Resources/TS/Main.lua
+  m_binaryFile: {fileID: 0}
   m_canResume: 0
   m_asyncYield: 0
   m_onUpdateHandle: -1
   m_onLateUpdateHandle: -1
   m_shortFileName: 
+  m_metadata:
+    name: 
+    properties: []
 --- !u!1 &1857464631
 GameObject:
   m_ObjectHideFlags: 0

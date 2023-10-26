@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9d0a47793548c8aaf9c8f8b493e7bc, type: 3}
+  m_Name: DefaultEntityConfig
+  m_EditorClassIdentifier: 
+  speed: 4.6666665
+  sprintSpeed: 6.6666665
+  crouchSpeedMultiplier: 0.455
+  crouchHeightMultiplier: 0.75
+  slideSpeedMultiplier: 3.28
+  slideHeightMultiplier: 0.5
+  slideCooldown: 0.8
+  jumpSpeed: 15
+  jumpCoyoteTime: 0.2
+  jumpBufferTime: 0.1
+  jumpUpBlockCooldown: 0.4
+  airDensity: 0.05
+  drag: 15
+  friction: 0.3
+  elasticity: 0.2
+  impulseMoveDisableTime: 0.32
+  impulseMoveDisabledScalar: 0.2
+  mass: 1

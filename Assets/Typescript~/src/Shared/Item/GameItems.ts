@@ -1,10 +1,15 @@
-import { ItemType } from "Core/Shared/Item/ItemType";
-import { ItemRegistrationConfig, ItemUtil } from "Imports/Core/Shared/Item/ItemUtil";
-import { BundleGroupNames } from "Imports/Core/Shared/Util/ReferenceManagerResources";
+import { ItemType } from "@Easy/Core/Shared/Item/ItemType";
+import { ItemRegistrationConfig, ItemUtil } from "@Easy/Core/Shared/Item/ItemUtil";
 
-declare module "Core/Shared/Item/ItemType" {
+declare module "@Easy/Core/Shared/Item/ItemType" {
 	export const enum ItemType {
 		EXAMPLE_ITEM = "EXAMPLE_ITEM",
+	}
+}
+
+declare module "@Easy/Core/Shared/Item/ItemMeta" {
+	export interface ItemMeta {
+		customField?: boolean;
 	}
 }
 
@@ -16,9 +21,7 @@ export function RegisterItems() {
 		ItemType.EXAMPLE_ITEM,
 		{
 			displayName: "Example Item",
-			itemAssets: {
-				assetBundleId: BundleGroupNames.ItemSword,
-			},
+			customField: true,
 		},
 		config,
 	);

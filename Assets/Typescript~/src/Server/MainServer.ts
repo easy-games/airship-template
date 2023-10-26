@@ -1,5 +1,5 @@
 import { Flamework } from "@easy-games/flamework-core";
-import { Bootstrap } from "Imports/Core/Shared/Bootstrap/Bootstrap";
+import { Bootstrap } from "@Easy/Core/Shared/Bootstrap/Bootstrap";
 
 print("Setting up game...");
 

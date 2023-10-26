@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f344ad3be842d59b0d8a2fb5e612f1, type: 3}
+  m_Name: Kit_GothGirl_ShirtFP
+  m_EditorClassIdentifier: 
+  DisplayName: Goth Girl Shirt
+  AccessorySlot: 5
+  Prefab: {fileID: 6523173034749109358, guid: cf69b5d7c345cec4481e66cc0b9a567c, type: 3}
+  Position: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
+  Scale: {x: 1, y: 1, z: 1}
+  MeshDeformed: 1
+  visibilityMode: 1

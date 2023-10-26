@@ -1,9 +1,9 @@
 import { OnStart, Service } from "@easy-games/flamework-core";
-import { CoreServerSignals } from "Imports/Core/Server/CoreServerSignals";
-import { EntityService } from "Imports/Core/Server/Services/Entity/EntityService";
-import { EntityPrefabType } from "Imports/Core/Shared/Entity/EntityPrefabType";
-import { SignalPriority } from "Imports/Core/Shared/Util/Signal";
-import { SetTimeout } from "Imports/Core/Shared/Util/Timer";
+import { CoreServerSignals } from "@Easy/Core/Server/CoreServerSignals";
+import { EntityService } from "@Easy/Core/Server/Services/Entity/EntityService";
+import { EntityPrefabType } from "@Easy/Core/Shared/Entity/EntityPrefabType";
+import { SignalPriority } from "@Easy/Core/Shared/Util/Signal";
+import { SetTimeout } from "@Easy/Core/Shared/Util/Timer";
 
 @Service({})
 export class ExampleService implements OnStart {
