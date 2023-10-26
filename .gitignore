@@ -105,7 +105,7 @@ Assets/Typescript~/.idea/
 .idea/
 ProjectSettings/GvhProjectSettings.xml
 
-Assets/Bundles/Types~/Core
+Assets/Bundles/Types~/**
 **/.yalc
 
 Assets/Bundles/@**
