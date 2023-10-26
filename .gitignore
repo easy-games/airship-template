@@ -108,5 +108,5 @@ ProjectSettings/GvhProjectSettings.xml
 Assets/Bundles/Types~/Core
 **/.yalc
 
-Assets/Bundles/Imports/*
+Assets/Bundles/@*
 Assets/FishNet.Config.XML
