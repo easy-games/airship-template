@@ -1,12 +1,14 @@
 import { ItemType } from "@Easy/Core/Shared/Item/ItemType";
 import { ItemRegistrationConfig, ItemUtil } from "@Easy/Core/Shared/Item/ItemUtil";
 
+// Create custom ItemTypes
 declare module "@Easy/Core/Shared/Item/ItemType" {
 	export const enum ItemType {
 		EXAMPLE_ITEM = "EXAMPLE_ITEM",
 	}
 }
 
+// Add custom fields to ItemMeta
 declare module "@Easy/Core/Shared/Item/ItemMeta" {
 	export interface ItemMeta {
 		customField?: boolean;
