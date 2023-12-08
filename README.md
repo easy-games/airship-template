@@ -3,7 +3,7 @@ Use this repo as a starting point for your future Airship game!
 
 ## Installing Unity
 1. Install [Unity Hub](https://unity.com/download)
-2. Install Unity Editor version `2021.3.12f1` from the [Download Archive Page](https://unity.com/releases/editor/archive)
+2. Install Unity Editor version `2021.3.33f1` from the [Download Archive Page](https://unity.com/releases/editor/archive)
 
 Install the following modules when prompted:
 - Android Build Support
