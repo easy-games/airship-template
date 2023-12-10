@@ -1,16 +1,8 @@
 # Airship Template Game
-Use this repo as a starting point for your future Airship game! 
+Use this repo as a starting point for your future Airship game!  
 
-## Installing Unity
-1. Install [Unity Hub](https://unity.com/download)
-2. Install Unity Editor version `2021.3.33f1` from the [Download Archive Page](https://unity.com/releases/editor/archive)
-
-Install the following modules when prompted:
-- Android Build Support
-- iOS Build Support
-- Linux Build Support (IL2CPP)
-- Linux Dedicated Server Build Support
-- Mac Build Support
+## Setup
+Open the folder in Unity after cloning.
 
 ## Setting up the TypeScript Project
 Note: you must open the project in Unity before building the Typescript.
