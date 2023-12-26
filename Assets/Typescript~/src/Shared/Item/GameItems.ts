@@ -9,8 +9,8 @@ declare module "@Easy/Core/Shared/Item/ItemType" {
 }
 
 // Add custom fields to ItemMeta
-declare module "@Easy/Core/Shared/Item/ItemMeta" {
-	export interface ItemMeta {
+declare module "@Easy/Core/Shared/Item/ItemDefinitionTypes" {
+	export interface ItemDef {
 		customField?: boolean;
 	}
 }

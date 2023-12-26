@@ -15,13 +15,18 @@ export class ExampleService implements OnStart {
 		const spawnPosition = GameObject.Find("SpawnLocation").transform.position;
 
 		CoreServerSignals.PlayerJoin.Connect((event) => {
-			this.entityService.SpawnEntityForPlayer(event.player, EntityPrefabType.HUMAN, spawnPosition);
+			this.entityService.SpawnPlayerEntity(event.player, EntityPrefabType.HUMAN, spawnPosition);
 		});
 
 		CoreServerSignals.EntityDeath.ConnectWithPriority(SignalPriority.MONITOR, (event) => {
 			if (event.entity.player) {
 				SetTimeout(event.respawnTime, () => {
-					this.entityService.SpawnEntityForPlayer(event.entity.player, EntityPrefabType.HUMAN, spawnPosition);
+					// Player may disconnect during respawn time.
+					if (!event.entity.player?.IsConnected()) {
+						return;
+					}
+
+					this.entityService.SpawnPlayerEntity(event.entity.player, EntityPrefabType.HUMAN, spawnPosition);
 				});
 			}
 		});
