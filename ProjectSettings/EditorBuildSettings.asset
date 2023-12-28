@@ -12,3 +12,4 @@ EditorBuildSettings:
     path: Packages/gg.easy.airship/Runtime/Scenes/CoreScene.unity
     guid: ad1cbabedc1035a4dbf717c49620d3a8
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
