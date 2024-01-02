@@ -306,12 +306,6 @@
       },
       "hash": "6f06a9b436ce1e2c5d7d0d3adcfbc0ee7912b6cb"
     },
-    "com.unity.modules.accessibility": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
