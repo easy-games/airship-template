@@ -1,8 +1,7 @@
 # Airship Template Game
 Use this repo as a starting point for your future Airship game!  
 
-## Setup
-Open the folder in Unity after cloning.
+**Once opened in Unity, open scene "DefaultScene"**
 
 ## Setting up the TypeScript Project
 Note: you must open the project in Unity before building the Typescript.
@@ -23,7 +22,13 @@ Now start the compiler in watch mode.
 npm run watch
 ```
 
-## Using ParrelSync for the Server
+## Using Multiplayer Play Mode
+We use the Multiplayer Play Mode (MPPM) package to run the client and server together. This is required to play.
+1. Press menu item **Window > Multiplayer Play Mode**
+2. Make sure Player 2 has the "Server" tag added. Add if it does not.
+3. Activate Player 2
+
+Now you can press play
 We use a tool called ParrelSync to create a clone of the project that runs as the server. You don't make changes to the clone, only the main project. Any changes you make in the main project is auto-synced to the clone. 
 
 1. Select **ParrelSync > Clones Manager**
