@@ -28,14 +28,4 @@ We use the Multiplayer Play Mode (MPPM) package to run the client and server tog
 2. Make sure Player 2 has the "Server" tag added. Add if it does not.
 3. Activate Player 2
 
-Now you can press play
-We use a tool called ParrelSync to create a clone of the project that runs as the server. You don't make changes to the clone, only the main project. Any changes you make in the main project is auto-synced to the clone. 
-
-1. Select **ParrelSync > Clones Manager**
-
-![Screenshot of ParrelSync menu options](https://1260643417-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FcEFcdlZM6gv3wpelI0y4%2Fuploads%2F7Ru4cjlBQNZtnYfRuLXx%2FScreenshot%202023-06-27%20at%201.46.15%20PM.png?alt=media&token=63de4251-1015-4d31-a657-d47cb40d3d9e)
-
-2. Click **Create New Clone**. This will generate a copy of the project that will act as our server. 
-Once complete, Click **Open in New Editor**
-
-![](https://1260643417-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FcEFcdlZM6gv3wpelI0y4%2Fuploads%2FxXLbPbc6h43YWIy1QfSK%2FScreenshot%202023-06-27%20at%201.47.07%20PM.png?alt=media&token=7d07ab15-5562-4198-ad40-ba82895a4f54)
+Now you can press play and both the client and server will startup together.
