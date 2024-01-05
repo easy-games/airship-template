@@ -291,7 +291,7 @@
       "url": "https://packages.unity.com"
     },
     "gg.easy.airship": {
-      "version": "https://github.com/easy-games/airship.git",
+      "version": "https://github.com/easy-games/airship.git#fd49511b604806a4749e72a3f043762e40f04bc6",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -304,7 +304,7 @@
         "com.unity.multiplayer.playmode": "0.6.0",
         "com.unity.ugui": "2.0.0"
       },
-      "hash": "6f06a9b436ce1e2c5d7d0d3adcfbc0ee7912b6cb"
+      "hash": "fd49511b604806a4749e72a3f043762e40f04bc6"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
