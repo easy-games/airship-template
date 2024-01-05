@@ -1,5 +1,5 @@
 export default class ExampleComponent extends AirshipBehaviour {
-	override OnStart(): void {
+	override Start(): void {
 		print("ExampleComponent.OnStart");
 	}
 
