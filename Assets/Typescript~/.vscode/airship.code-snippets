@@ -33,7 +33,7 @@
 		"prefix": "component",
 		"body": [
 			"export default class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} extends AirshipBehaviour {",
-			"\toverride OnStart(): void {",
+			"\toverride Start(): void {",
 			"\t\t${0}",
 			"\t}",
 			"",
