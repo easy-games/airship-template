@@ -31,7 +31,6 @@
 		// "tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
         "skipLibCheck": false,
 		"plugins": [
-            { "transform": "@easy-games/unity-component-transformer" },
 			{ "transform": "@easy-games/unity-flamework-transformer" }
 		]
 	},
