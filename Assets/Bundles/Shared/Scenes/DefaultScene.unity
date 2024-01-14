@@ -258,6 +258,63 @@ Transform:
   - {fileID: 1292161135}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1058476036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058476037}
+  - component: {fileID: 1058476038}
+  m_Layer: 0
+  m_Name: Lighting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1058476037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058476036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.30125776, y: 5.8160825, z: -5.0203238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058476038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058476036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328324b9b586ee749acb4d8a5762986f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _negativeSunDirectionNormalized: {x: 0.37139067, y: 0.74278134, z: -0.557086}
+  _sunDirectionNormalized: {x: -0.37139067, y: -0.74278134, z: 0.557086}
+  _sunDirection: {x: -1, y: -2, z: 1.5}
+  sunBrightness: 0.45
+  sunColor: {r: 1, g: 1, b: 1, a: 1}
+  skySaturation: 0.3
+  cubeMapPath: '@Easy/CoreMaterials/Shared/Resources/Skybox/BrightSky/bright_sky_2.png'
+  globalAmbientLight: {r: 1, g: 1, b: 1, a: 1}
+  globalAmbientBrightness: 0.5
+  globalAmbientOcclusion: 0.25
+  fogStart: 75
+  fogEnd: 280
+  fogColor: {r: 0.5, g: 0.8, b: 1, a: 1}
 --- !u!1 &1292161134
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,7 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorSettings:
-  - materialColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  - materialColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
     emissiveColor: {r: 1, g: 1, b: 1, a: 1}
     emissiveMix: 1
     reference: Clay
@@ -478,3 +535,4 @@ SceneRoots:
   - {fileID: 1025895371}
   - {fileID: 870239198}
   - {fileID: 989658561}
+  - {fileID: 1058476037}
