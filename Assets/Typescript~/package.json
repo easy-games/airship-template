@@ -15,11 +15,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@easy-games/compiler-types": "^3.0.2-26",
+    "@easy-games/compiler-types": "^3.0.2-29",
     "@easy-games/types": "^1.0.81-163",
-    "@easy-games/unity-flamework-transformer": "^1.1.0-38",
+    "@easy-games/unity-component-transformer": "^1.0.0-12",
+    "@easy-games/unity-flamework-transformer": "^1.1.0-39",
     "@easy-games/unity-rojo-resolver": "^1.0.3-7",
-    "@easy-games/unity-ts": "^3.0.0-131",
+    "@easy-games/unity-ts": "^3.0.0-135",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "eslint": "^8.25.0",
@@ -30,7 +31,7 @@
     "typescript": "=5.1.6"
   },
   "dependencies": {
-    "@easy-games/flamework-core": "^3.0.0-71",
+    "@easy-games/flamework-core": "^3.1.0-73",
     "@easy-games/unity-inspect": "^1.0.1-2",
     "@easy-games/unity-object-utils": "^1.2.0-7"
   }
