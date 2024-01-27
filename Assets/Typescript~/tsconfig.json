@@ -21,7 +21,7 @@
 		"rootDirs": ["src/Server", "src/Client", "src/Shared"],
 		"outDir": "../Bundles",
         "paths": {
-            "Imports/*": ["../../Bundles/Types~/*"],
+            "@*": ["../../Bundles/Types~/*"],
             "*": [
                 "./*"
             ]
