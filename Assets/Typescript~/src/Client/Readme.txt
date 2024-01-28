@@ -1,0 +1,1 @@
+This folder only exists on the client.
