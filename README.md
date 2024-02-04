@@ -3,6 +3,8 @@ Use this repo as a starting point for your future Airship game!
 
 **Once opened in Unity, open scene "DefaultScene"**
 
+You will need to setup the TypeScript Project before the game is playable. 
+
 ## Setting up the TypeScript Project
 Note: you must open the project in Unity before building the Typescript.
 
