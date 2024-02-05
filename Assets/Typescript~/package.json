@@ -8,7 +8,7 @@
     "build:dev": "utsc-dev build --project . --verbose --writeOnlyChanged",
     "watch": "rm -rf out/ && utsc build --project . --verbose --watch --writeOnlyChanged",
     "watch:dev": "utsc-dev build --project . --verbose --watch --writeOnlyChanged",
-    "update-airship": "npm i -D @easy-games/unity-ts@latest @easy-games/unity-flamework-transformer@latest @easy-games/unity-component-transformer@latest && npm i @easy-games/unity-object-utils@latest @easy-games/flamework-core@latest @easy-games/unity-inspect@latest @easy-games/compiler-types@latest @easy-games/types@latest",
+    "update-airship": "npm i -D @easy-games/unity-ts@staging @easy-games/unity-flamework-transformer@staging && npm i @easy-games/unity-object-utils@latest @easy-games/unity-inspect@latest @easy-games/compiler-types@staging @easy-games/types@staging"
     "git": "npm-update-git-deps"
   },
   "keywords": [],
