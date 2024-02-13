@@ -2,7 +2,7 @@
 	"Flamework Controller": {
 		"prefix": "flamecontroller",
 		"body": [
-			"import { Controller, OnStart } from \"@easy-games/flamework-core\";",
+			"import { Controller, OnStart } from \"@Easy/Core/Shared/Flamework\";",
 			"",
 			"@Controller({})",
 			"export class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} implements OnStart {",
@@ -17,7 +17,7 @@
 	"Flamework Service": {
 		"prefix": "flameservice",
 		"body": [
-			"import { Service, OnStart } from \"@easy-games/flamework-core\";",
+			"import { OnStart, Service } from \"@Easy/Core/Shared/Flamework\";",
 			"",
 			"@Service({})",
 			"export class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} implements OnStart {",
