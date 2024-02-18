@@ -17,8 +17,8 @@
   "devDependencies": {
     "@easy-games/compiler-types": "^3.0.40",
     "@easy-games/types": "^1.0.173",
-    "@easy-games/unity-flamework-transformer": "^1.1.0-39",
-    "@easy-games/unity-ts": "^3.0.164",
+    "@easy-games/unity-flamework-transformer": "^1.1.50",
+    "@easy-games/unity-ts": "^3.0.173",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "eslint": "^8.25.0",
@@ -29,7 +29,7 @@
     "typescript": "=5.1.6"
   },
   "dependencies": {
-    "@easy-games/unity-inspect": "^1.0.1-2",
-    "@easy-games/unity-object-utils": "^1.2.0-7"
+    "@easy-games/unity-inspect": "^1.0.5",
+    "@easy-games/unity-object-utils": "^1.2.11"
   }
 }
