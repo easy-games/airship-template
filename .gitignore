@@ -108,5 +108,13 @@ ProjectSettings/GvhProjectSettings.xml
 Assets/Bundles/Types~/**
 **/.yalc
 
-Assets/Bundles/@**
 Assets/FishNet.Config.XML
+
+*.asbuildinfo
+
+# Ignore all non-local packages
+Assets/Bundles/@Easy.meta
+Assets/Bundles/@Easy/Core
+Assets/Bundles/@Easy/Core.meta
+Assets/Bundles/@Easy/CoreMaterials
+Assets/Bundles/@Easy/CoreMaterials.meta
