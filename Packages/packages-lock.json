@@ -99,7 +99,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.playmode": {
-      "version": "0.6.0",
+      "version": "1.0.0-pre.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -291,7 +291,7 @@
       "url": "https://packages.unity.com"
     },
     "gg.easy.airship": {
-      "version": "0.1.220",
+      "version": "0.1.351",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -301,7 +301,7 @@
         "com.unity.scriptablebuildpipeline": "1.21.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.animation.rigging": "1.1.1",
-        "com.unity.multiplayer.playmode": "0.6.0",
+        "com.unity.multiplayer.playmode": "1.0.0-pre.2",
         "com.unity.ugui": "2.0.0",
         "com.unity.visualscripting": "1.9.1"
       },

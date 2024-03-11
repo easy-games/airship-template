@@ -118,3 +118,7 @@ Assets/Bundles/@Easy/Core
 Assets/Bundles/@Easy/Core.meta
 Assets/Bundles/@Easy/CoreMaterials
 Assets/Bundles/@Easy/CoreMaterials.meta
+
+Assets/Bundles/@Easy/CoreMaterials/*
+
+Assets/Bundles/@Easy/Core/*
