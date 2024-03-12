@@ -111,6 +111,7 @@ Assets/Bundles/Types~/**
 Assets/FishNet.Config.XML
 
 *.asbuildinfo
+**/airship_pkg_download_success.txt
 
 # Ignore all non-local packages
 Assets/Bundles/@Easy.meta
