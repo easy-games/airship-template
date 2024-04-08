@@ -159,7 +159,9 @@ MonoBehaviour:
   m_shortFileName: 
   m_metadata:
     name: GameManager
+    decorators: []
     properties: []
+    displayName: 
 --- !u!4 &57717753
 Transform:
   m_ObjectHideFlags: 0
@@ -364,7 +366,6 @@ MonoBehaviour:
   sunShadow: 0.85
   sunColor: {r: 1, g: 1, b: 1, a: 1}
   skySaturation: 0.3
-  cubeMapPath: '@Easy/CoreMaterials/Shared/Resources/Skybox/BrightSky/bright_sky_2.png'
   globalAmbientLight: {r: 1, g: 1, b: 1, a: 1}
   globalAmbientBrightness: 0.5
   globalAmbientOcclusion: 0.25
@@ -373,6 +374,12 @@ MonoBehaviour:
   fogEnd: 280
   fogColor: {r: 0.5, g: 0.8, b: 1, a: 1}
   shadowRange: 100
+  postProcess: 1
+  convertColorTosRGB: 1
+  doShadows: 1
+  cubeMap: {fileID: 8900000, guid: 5fc66b0c26da846d5b23737d2bcd589e, type: 3}
+  cubemapCoefs: {fileID: 4900000, guid: f72a9cb71c5494bd8b37802631583e8e, type: 3}
+  maxBrightness: 1
 --- !u!1 &1857464631
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +458,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 38e12c35104f11345b3dc76baf52e0ab, type: 2}
+  - {fileID: 2100000, guid: 16c9aa28b6820e4458962092cb733832, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -494,7 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorSettings:
-  - materialColor: {r: 0.20710216, g: 0.21982911, b: 0.24528301, a: 1}
+  - materialColor: {r: 1, g: 1, b: 1, a: 1}
     emissiveColor: {r: 1, g: 1, b: 1, a: 1}
     emissiveMix: 1
   addedByEditorScript: 1
@@ -569,6 +576,7 @@ MonoBehaviour:
   m_shortFileName: 
   m_metadata:
     name: CharacterSpawner
+    decorators: []
     properties:
     - name: spawnPoint
       type: object
@@ -578,11 +586,13 @@ MonoBehaviour:
         objectType: 
         serializedItems: []
         objectRefs: []
+      refPath: 
       decorators: []
       nullable: 0
       serializedValue: 
       serializedObject: {fileID: 1977817313}
       modified: 1
+    displayName: 
 --- !u!4 &2019946519
 Transform:
   m_ObjectHideFlags: 0

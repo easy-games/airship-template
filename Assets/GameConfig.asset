@@ -18,16 +18,16 @@ MonoBehaviour:
   - {fileID: 102900000, guid: e9baa4b514ca7466592cd454e7e23b0a, type: 3}
   packages:
   - id: '@Easy/Core'
-    assetVersion: 376
-    codeVersion: 98
+    assetVersion: 434
+    codeVersion: 199
     game: 0
     localSource: 0
     disabled: 0
     defaultPackage: 1
     forceLatestVersion: 1
   - id: '@Easy/CoreMaterials'
-    assetVersion: 20
-    codeVersion: 3
+    assetVersion: 34
+    codeVersion: 17
     game: 0
     localSource: 0
     disabled: 0
