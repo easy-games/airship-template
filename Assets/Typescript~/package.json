@@ -18,7 +18,7 @@
     "@easy-games/compiler-types": "^3.0.42",
     "@easy-games/types": "^1.0.174",
     "@easy-games/unity-flamework-transformer": "^1.1.52",
-    "@easy-games/unity-ts": "^3.0.190",
+    "@easy-games/unity-ts": "^3.0.191",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
     "eslint": "^8.25.0",

@@ -2,9 +2,9 @@ import { RemoteEvent } from "@Easy/Core/Shared/Network/RemoteEvent";
 
 export const Network = {
 	ClientToServer: {
-		ExampleRequest: new RemoteEvent<[test: number]>(),
+		HelloFromClient: new RemoteEvent<[test: number]>("HelloFromClient"),
 	},
 	ServerToClient: {
-		ExampleEvent: new RemoteEvent<[message: string]>(),
+		HelloFromServer: new RemoteEvent<[message: string]>("HelloFromServer"),
 	},
 };

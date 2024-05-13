@@ -1,11 +1,11 @@
 import { Airship } from "@Easy/Core/Shared/Airship";
-import { RunUtil } from "@Easy/Core/Shared/Util/RunUtil";
+import { Game } from "@Easy/Core/Shared/Game";
 
 export default class CharacterSpawner extends AirshipBehaviour {
 	public spawnPoint!: GameObject;
 
 	override Start(): void {
-		if (RunUtil.IsServer()) {
+		if (Game.IsServer()) {
 			Airship.players.ObservePlayers((player) => {
 				player.SpawnCharacter(this.spawnPoint.transform.position);
 			});

@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Packages/gg.easy.airship/Runtime/Scenes/CoreScene.unity
     guid: ad1cbabedc1035a4dbf717c49620d3a8
+  - enabled: 1
+    path: Packages/gg.easy.airship/Runtime/Scenes/Login.unity
+    guid: 7cbc249662f9a43ff80aee8c8cb84984
+  - enabled: 1
+    path: Assets/Bundles/Shared/Scenes/DefaultScene.unity
+    guid: e9baa4b514ca7466592cd454e7e23b0a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

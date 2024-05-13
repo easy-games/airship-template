@@ -29,7 +29,7 @@ MonoBehaviour:
     m_ConfigSource: 0
   - m_Id: scoped:project:Airship
     m_Name: Airship
-    m_Url: https://registry-staging.airship.gg
+    m_Url: https://registry.npmjs.org
     m_Scopes:
     - gg.easy
     m_IsDefault: 0

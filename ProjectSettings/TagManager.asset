@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Character
   layers:
   - Default
   - TransparentFX
@@ -11,32 +12,32 @@ TagManager:
   - Character
   - Water
   - UI
-  - Block
-  - BridgeAssist
-  - IgnoreCollide
-  - GroundItem
-  - FirstPerson
-  - Projectile
+  - WorldUI
+  - ViewModel
+  - VisuallyHidden
+  - IgnoreCollision
+  - AvatarEditor
+  - VoxelWorld
   - ProjectileReceiver
   - 
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - GameLayer0
+  - GameLayer1
+  - GameLayer2
+  - GameLayer3
+  - GameLayer4
+  - GameLayer5
+  - GameLayer6
+  - GameLayer7
+  - GameLayer8
+  - GameLayer9
+  - GameLayer10
+  - GameLayer11
+  - GameLayer12
+  - GameLayer13
+  - GameLayer14
   m_SortingLayers:
   - name: Default
     uniqueID: 0

@@ -12,25 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55587e6da00a44bf9f7d5798297ebf2b, type: 3}
   m_Name: GameConfig
   m_EditorClassIdentifier: 
-  gameId: Example
+  gameId: 
   startingSceneName: DefaultScene
   gameScenes:
   - {fileID: 102900000, guid: e9baa4b514ca7466592cd454e7e23b0a, type: 3}
   packages:
   - id: '@Easy/Core'
-    assetVersion: 450
-    codeVersion: 239
+    assetVersion: 460
+    codeVersion: 278
     game: 0
     localSource: 0
     disabled: 0
     defaultPackage: 1
     forceLatestVersion: 1
   - id: '@Easy/CoreMaterials'
-    assetVersion: 38
-    codeVersion: 21
+    assetVersion: 40
+    codeVersion: 23
     game: 0
     localSource: 0
     disabled: 0
     defaultPackage: 1
     forceLatestVersion: 1
   tags: []
+  gameLayers: []
