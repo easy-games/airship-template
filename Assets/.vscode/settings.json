@@ -16,7 +16,6 @@
     "**/*.anim": true,
     "**/*.pdf": true,
     "FishNet.Config.XML": true,
-    "AirshipPackages": true,
     "Typescript~": true
   },
   "[typescript]": {
