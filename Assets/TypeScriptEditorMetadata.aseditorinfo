@@ -1,4 +1,23 @@
 {
 	"id": "typescript",
-	"enum": {}
+	"enum": {
+		"AirshipPackages/@Easy/Core/Client/ProtectedControllers/MainMenuPageName@MainMenuPageType": {
+			"Home": "Home",
+			"MyGames": "MyGames",
+			"Settings": "Settings",
+			"Game": "Game",
+			"Avatar": "Avatar",
+			"Shop": "Shop",
+			"Friends": "Friends"
+		},
+		"AirshipPackages/@Easy/Core/Shared/Types/Generated.d@Space": {
+			"World": 0,
+			"Self": 1
+		},
+		"AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipButtonClickEffect@AirshipButtonClickEffect": {
+			"None": 0,
+			"Squish": 1,
+			"ShiftDown": 2
+		}
+	}
 }
