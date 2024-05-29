@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4feffba88dce746a2607f0ec6233b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptFile: {fileID: 0}
   m_fileFullPath: Assets/Bundles/Shared/Resources/TS/GameManager.lua
   m_error: 0
   m_yielded: 0
@@ -502,9 +503,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorSettings:
-  - materialColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+  - materialColor: {r: 1, g: 1, b: 1, a: 1}
     emissiveColor: {r: 1, g: 1, b: 1, a: 1}
     emissiveMix: 1
+    emissiveLevel: 0
   addedByEditorScript: 1
 --- !u!1 &1977817313
 GameObject:
@@ -566,6 +568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4feffba88dce746a2607f0ec6233b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptFile: {fileID: 0}
   m_fileFullPath: Assets/Bundles/Shared/Resources/TS/CharacterSpawner.lua
   m_error: 0
   m_yielded: 0
