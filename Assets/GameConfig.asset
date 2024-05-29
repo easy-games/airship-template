@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   gameId: 
-  startingSceneName: 
-  gameScenes: []
+  startingSceneName: DefaultScene
+  gameScenes:
+  - {fileID: 102900000, guid: e9baa4b514ca7466592cd454e7e23b0a, type: 3}
   packages:
   - id: '@Easy/Core'
     assetVersion: 481
