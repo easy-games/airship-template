@@ -1,0 +1,26 @@
+{
+  "files.exclude": {
+    "**/*.asset": true,
+    "**/*.meta": true,
+    "**/*.mat": true,
+    "**/*.prefab": true,
+    "**/*.unity": true,
+    "**/*.hdr": true,
+    "**/*.aseditorinfo": true,
+    "**/*.asbuildinfo": true,
+    "**/*.confg": true,
+    "**/*.wav": true,
+    "**/*.png": true,
+    "**/*.tga": true,
+    "**/*.fbx": true,
+    "**/*.anim": true,
+    "**/*.pdf": true,
+    "FishNet.Config.XML": true,
+    "Typescript~": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "files.eol": "\n"
+}

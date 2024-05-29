@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "Typescript~/out",
+    "paths": {
+      "@*": [
+        "AirshipPackages/@*"
+      ]
+    },
+    "plugins": [
+      {
+        "transform": "@easy-games/unity-flamework-transformer"
+      }
+    ],
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "noLib": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleDetection": "force",
+    "strict": true,
+    "target": "ESNext",
+    "typeRoots": [
+      "Typescript~/node_modules/@easy-games"
+    ],
+    "skipLibCheck": true
+  },
+  "airship": {
+    "type": "game",
+    "package": "Typescript~",
+    "runtimePath": "AirshipPackages/@Easy/Core/Shared/Runtime"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "Typescript~/node_modules"
+  ]
+}

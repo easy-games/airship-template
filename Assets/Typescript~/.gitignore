@@ -1,9 +1,0 @@
-/node_modules
-/out
-/include
-*.tsbuildinfo
-flamework.build
-
-*mono_crash*
-
-!src/**/*.lua
