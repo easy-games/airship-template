@@ -80,20 +80,6 @@ crashlytics-build.properties
 
 *.DS_Store
 
-Assets/Bundles/**/*.lua
-Assets/Bundles/Client/Resources/TS/*
-Assets/Bundles/CoreClient/Resources/TS/*
-Assets/Bundles/Server/Resources/TS/*
-Assets/Bundles/CoreServer/Resources/TS/*
-Assets/Bundles/Shared/Resources/TS/*
-Assets/Bundles/CoreShared/Resources/TS/*
-
-Assets/Bundles/Imports/**/Resources/TS/*
-
-Assets/Bundles/Shared/Resources/rbxts_include
-Assets/Bundles/Shared/Resources/rbxts_include.meta
-Assets/Bundles/Shared/Resources/include
-Assets/Bundles/Shared/Resources/include.meta
 *.prof
 *.prof.meta
 Assets/Editor/AuthConfigData.confg
@@ -105,7 +91,6 @@ Assets/Typescript~/.idea/
 .idea/
 ProjectSettings/GvhProjectSettings.xml
 
-Assets/Bundles/Types~/**
 **/.yalc
 
 Assets/FishNet.Config.XML
@@ -114,15 +99,6 @@ Assets/FishNet.Config.XML
 **/airship_pkg_download_success.txt
 
 # Ignore all non-local packages
-Assets/Bundles/@Easy.meta
-Assets/Bundles/@Easy/Core
-Assets/Bundles/@Easy/Core.meta
-Assets/Bundles/@Easy/CoreMaterials
-Assets/Bundles/@Easy/CoreMaterials.meta
-
-Assets/Bundles/@Easy/CoreMaterials/*
-
-Assets/Bundles/@Easy/Core/*
 
 Assets/AirshipPackages/@Easy/CoreMaterials/*
 
