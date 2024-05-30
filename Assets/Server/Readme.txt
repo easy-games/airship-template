@@ -1,1 +1,0 @@
-This folder only exists on the server.
