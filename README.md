@@ -1,25 +1,13 @@
 # Airship Template Game
 Use this repo as a starting point for your future Airship game!  
 
-**Once opened in Unity, open scene "DefaultScene"**
+## Prerequisites
+- [Unity 2023.2.3f1](https://unity.com/releases/editor/whats-new/2023.2.3#installs) (Unity Hub recommended for installing)
+- [Node](https://nodejs.org/en/download/package-manager) - Required for the typescript compiler
 
-You will need to setup the TypeScript Project before the game is playable. 
+## Getting started
+It's recommended that you open the project in Unity to let Airship set up the project fully.
 
-## Setting up the TypeScript Project
-Note: you must open the project in Unity before building the Typescript.
+**Once opened in Unity, open scene "DefaultScene"**, the game should be playable straight away after you see *Compiled Successfully* in the console.
 
-Use Git Bash on PC, or Terminal on Mac:
-First, `cd` into the TypeScript project directory.
-```
-cd Assets/Typescript~
-```
-
-Next, install node dependencies.
-```
-npm i
-```
-
-Now start the compiler in watch mode.
-```
-npm run watch
-```
+That's it! [check out our docs](https://docs.airship.gg/) for more information on how to develop on Airship.
