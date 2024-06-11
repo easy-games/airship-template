@@ -2,7 +2,7 @@
 Use this repo as a starting point for your future Airship game!  
 
 ## Prerequisites
-- [Unity 2023.2.3f1](https://unity.com/releases/editor/whats-new/2023.2.3#installs) (Unity Hub recommended for installing)
+- [Unity 2023.2.3f1](https://unity.com/releases/editor/whats-new/2023.2.3) (Unity Hub recommended for installing)
 - [Node](https://nodejs.org/en/download/package-manager) - Required for the typescript compiler
 
 ## Getting started
