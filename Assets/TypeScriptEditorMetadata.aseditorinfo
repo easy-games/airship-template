@@ -3,7 +3,7 @@
 	"enum": {
 		"AirshipPackages/@Easy/Core/Client/ProtectedControllers/MainMenuPageName@MainMenuPageType": {
 			"Home": "Home",
-			"MyGames": "MyGames",
+			"Develop": "Develop",
 			"Settings": "Settings",
 			"Game": "Game",
 			"Avatar": "Avatar",
