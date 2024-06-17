@@ -148,11 +148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4feffba88dce746a2607f0ec6233b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptFile: {fileID: 971638273017758482, guid: d6323b524eb66054b8a7130185d7f123, type: 3}
-  m_fileFullPath: Assets/Shared/GameManager.lua
+  scriptFile: {fileID: -5602977830296202942, guid: d6323b524eb66054b8a7130185d7f123, type: 3}
+  m_fileFullPath: Assets/Code/GameManager.lua
   m_error: 0
   m_yielded: 0
-  m_assetPath: 
   m_canResume: 0
   m_asyncYield: 0
   m_onUpdateHandle: -1
@@ -188,36 +187,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -9.393629
       objectReference: {fileID: 0}
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15
+      value: 7.205134
       objectReference: {fileID: 0}
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15
+      value: -17.110886
       objectReference: {fileID: 0}
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9862857
+      value: 0.9548688
       objectReference: {fileID: 0}
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.16504757
+      value: 0.20533133
       objectReference: {fileID: 0}
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.20983148
       objectReference: {fileID: 0}
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.04511685
       objectReference: {fileID: 0}
     - target: {fileID: 1136170332740488720, guid: 241cf930257357542a77bc6d7fb552e4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -250,7 +245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989658561}
   m_Layer: 0
-  m_Name: Map
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,11 +615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa4feffba88dce746a2607f0ec6233b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptFile: {fileID: 2953569575377839110, guid: 1d19f418d8ad62340ba2a826511554f6, type: 3}
-  m_fileFullPath: Assets/Shared/CharacterSpawner.lua
+  scriptFile: {fileID: 7783096336541887851, guid: 1d19f418d8ad62340ba2a826511554f6, type: 3}
+  m_fileFullPath: Assets/Code/CharacterSpawner.lua
   m_error: 0
   m_yielded: 0
-  m_assetPath: 
   m_canResume: 0
   m_asyncYield: 0
   m_onUpdateHandle: -1
@@ -634,9 +628,9 @@ MonoBehaviour:
     name: CharacterSpawner
     decorators: []
     properties:
-    - name: spawnPoint
+    - name: spawnLocation
       type: object
-      objectType: GameObject
+      objectType: Transform
       items:
         type: 
         objectType: 
@@ -646,7 +640,7 @@ MonoBehaviour:
       decorators: []
       nullable: 0
       serializedValue: 
-      serializedObject: {fileID: 1977817313}
+      serializedObject: {fileID: 2074322348}
       modified: 1
     displayName: 
   contextOverwritten: 0
@@ -665,6 +659,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2074322347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2074322348}
+  m_Layer: 0
+  m_Name: SpawnLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2074322348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074322347}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7959051, y: 0.94, z: -6.27}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -673,5 +698,6 @@ SceneRoots:
   - {fileID: 870239198}
   - {fileID: 989658561}
   - {fileID: 2019946519}
+  - {fileID: 2074322348}
   - {fileID: 57717753}
   - {fileID: 1309094771}

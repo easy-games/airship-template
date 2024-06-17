@@ -16,7 +16,9 @@
     "**/*.anim": true,
     "**/*.pdf": true,
     "FishNet.Config.XML": true,
-    "Typescript~": true
+    "Typescript~": true,
+    "TextMesh Pro": true,
+    "AirshipPackages/@Easy": true,
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
