@@ -8,12 +8,12 @@ export default class CharacterSpawner extends AirshipBehaviour {
 	override Start(): void {
 		if (Game.IsServer()) {
 			// Fired when players join the game
-			Airship.players.ObservePlayers((player) => {
+			Airship.Players.ObservePlayers((player) => {
 				player.SpawnCharacter(this.transform.position);
 			});
 
 			// Fired whenever a character dies
-			Airship.damage.onDeath.Connect((damageInfo) => {
+			Airship.Damage.onDeath.Connect((damageInfo) => {
 				const character = damageInfo.gameObject.GetAirshipComponent<Character>();
 				if (character?.player) {
 					character.player.SpawnCharacter(this.transform.position);
@@ -24,9 +24,9 @@ export default class CharacterSpawner extends AirshipBehaviour {
 			task.spawn(() => {
 				while (true) {
 					task.wait(0.1);
-					for (let character of Airship.characters.GetCharacters()) {
+					for (let character of Airship.Characters.GetCharacters()) {
 						if (character.IsAlive() && character.transform.position.y < -10) {
-							Airship.damage.InflictDamage(character.gameObject, math.huge);
+							Airship.Damage.InflictDamage(character.gameObject, math.huge);
 						}
 					}
 				}
