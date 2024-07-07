@@ -171,13 +171,6 @@
         "com.unity.render-pipelines.core": "16.0.1"
       }
     },
-    "com.unity.scriptablebuildpipeline": {
-      "version": "1.21.20",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.searcher": {
       "version": "4.9.2",
       "depth": 3,
@@ -300,14 +293,13 @@
       "url": "https://packages.unity.com"
     },
     "gg.easy.airship": {
-      "version": "0.1.1186",
+      "version": "0.1.1203",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.render-pipelines.universal": "12.1.7",
         "com.unity.render-pipelines.core": "12.1.7",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.scriptablebuildpipeline": "1.21.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.animation.rigging": "1.1.1",
         "com.unity.multiplayer.playmode": "1.0.0-pre.2",
