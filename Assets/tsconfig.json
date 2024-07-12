@@ -17,7 +17,8 @@
 		"strict": true,
 		"target": "ESNext",
 		"typeRoots": ["AirshipPackages/@Easy/Core/Shared/Types"],
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"strictPropertyInitialization": false
 	},
 	"airship": {
 		"type": "game",
