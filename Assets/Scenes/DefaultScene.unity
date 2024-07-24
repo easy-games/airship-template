@@ -159,8 +159,10 @@ MonoBehaviour:
   m_shortFileName: 
   m_metadata:
     name: GameManager
+    singleton: 0
     decorators: []
     properties: []
+    displayIcon: {fileID: 0}
     displayName: 
   contextOverwritten: 0
 --- !u!4 &57717753
@@ -245,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989658561}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265,7 +267,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1857464632}
-  - {fileID: 1977817314}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1309094768
@@ -397,7 +398,6 @@ GameObject:
   - component: {fileID: 1857464635}
   - component: {fileID: 1857464634}
   - component: {fileID: 1857464633}
-  - component: {fileID: 1857464636}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -413,13 +413,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857464631}
   serializedVersion: 2
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 989658561}
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1857464633
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -493,55 +493,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857464631}
   m_Mesh: {fileID: 3921568967233161584, guid: 0815e8003e1c943529193fa0c4009f8a, type: 3}
---- !u!114 &1857464636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857464631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 383a1b8b3d39ddb41a74d61323e46209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorSettings:
-  - materialColor: {r: 1, g: 1, b: 1, a: 1}
-    emissiveColor: {r: 1, g: 1, b: 1, a: 1}
-    emissiveMix: 1
-    emissiveLevel: 0
-  addedByEditorScript: 1
---- !u!1 &1977817313
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1977817314}
-  m_Layer: 0
-  m_Name: SpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1977817314
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977817313}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 989658561}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019946517
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +533,7 @@ MonoBehaviour:
   m_shortFileName: 
   m_metadata:
     name: CharacterSpawner
+    singleton: 0
     decorators: []
     properties:
     - name: spawnLocation
@@ -599,6 +551,7 @@ MonoBehaviour:
       serializedValue: 
       serializedObject: {fileID: 2074322348}
       modified: 1
+    displayIcon: {fileID: 0}
     displayName: 
   contextOverwritten: 0
 --- !u!4 &2019946519
@@ -641,7 +594,7 @@ Transform:
   m_GameObject: {fileID: 2074322347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7959051, y: 0.94, z: -6.27}
+  m_LocalPosition: {x: -0.7959051, y: 1.58, z: -5.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -9,14 +9,14 @@ export default class CharacterSpawner extends AirshipBehaviour {
 		if (Game.IsServer()) {
 			// Fired when players join the game
 			Airship.Players.ObservePlayers((player) => {
-				player.SpawnCharacter(this.transform.position);
+				player.SpawnCharacter(this.spawnLocation.position);
 			});
 
 			// Fired whenever a character dies
 			Airship.Damage.onDeath.Connect((damageInfo) => {
 				const character = damageInfo.gameObject.GetAirshipComponent<Character>();
 				if (character?.player) {
-					character.player.SpawnCharacter(this.transform.position);
+					character.player.SpawnCharacter(this.spawnLocation.position);
 				}
 			});
 
