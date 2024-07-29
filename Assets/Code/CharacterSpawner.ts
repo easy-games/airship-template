@@ -12,23 +12,11 @@ export default class CharacterSpawner extends AirshipBehaviour {
 				player.SpawnCharacter(this.spawnLocation.position);
 			});
 
-			// Fired whenever a character dies
+			// Respawn characters when they die
 			Airship.Damage.onDeath.Connect((damageInfo) => {
 				const character = damageInfo.gameObject.GetAirshipComponent<Character>();
 				if (character?.player) {
 					character.player.SpawnCharacter(this.spawnLocation.position);
-				}
-			});
-
-			// Die to void
-			task.spawn(() => {
-				while (true) {
-					task.wait(0.1);
-					for (let character of Airship.Characters.GetCharacters()) {
-						if (character.IsAlive() && character.transform.position.y < -10) {
-							Airship.Damage.InflictDamage(character.gameObject, math.huge);
-						}
-					}
 				}
 			});
 		}
