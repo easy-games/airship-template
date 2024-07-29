@@ -12,26 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55587e6da00a44bf9f7d5798297ebf2b, type: 3}
   m_Name: GameConfig
   m_EditorClassIdentifier: 
-  gameId: 
+  gameId:
   startingSceneName: DefaultScene
   gameScenes:
   - {fileID: 102900000, guid: e9baa4b514ca7466592cd454e7e23b0a, type: 3}
   packages:
   - id: '@Easy/Core'
-    assetVersion: 583
-    codeVersion: 601
+    assetVersion: 596
+    codeVersion: 641
     game: 0
     localSource: 0
     disabled: 0
     defaultPackage: 1
     forceLatestVersion: 1
   - id: '@Easy/CoreMaterials'
-    assetVersion: 77
-    codeVersion: 61
+    assetVersion: 90
+    codeVersion: 74
     game: 0
     localSource: 0
     disabled: 0
     defaultPackage: 1
     forceLatestVersion: 1
   tags: []
-  gameLayers: []
+  gameLayers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Character
+  - Water
+  - UI
+  - WorldUI
+  - Viewmodel
+  - VisuallyHidden
+  - IgnoreCollision
+  - AvatarEditor
+  - VoxelWorld
+  - ProjectileReceiver
+  - 
+  - 
+  - 
+  - 
+  - GameLayer0
+  - GameLayer1
+  - GameLayer2
+  - GameLayer3
+  - GameLayer4
+  - GameLayer5
+  - GameLayer6
+  - GameLayer7
+  - GameLayer8
+  - GameLayer9
+  - GameLayer10
+  - GameLayer11
+  - GameLayer12
+  - GameLayer13
