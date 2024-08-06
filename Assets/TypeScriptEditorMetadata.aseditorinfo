@@ -285,6 +285,10 @@
 			"assetPath": "AirshipPackages/@Easy/Core/Shared/MainMenu/Components/SocialNotificationComponent.ts",
 			"name": "SocialNotificationComponent"
 		},
+		"AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipButton@AirshipButton": {
+			"assetPath": "AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipButton.ts",
+			"name": "AirshipButton"
+		},
 		"AirshipPackages/@Easy/Core/Client/ProtectedControllers/AvatarMenu/Outfit/OutfitButtonComponent@OutfitButton": {
 			"assetPath": "AirshipPackages/@Easy/Core/Client/ProtectedControllers/AvatarMenu/Outfit/OutfitButtonComponent.ts",
 			"name": "OutfitButton"
@@ -292,10 +296,6 @@
 		"AirshipPackages/@Easy/Core/Shared/Input/Mobile/TouchJoystick@TouchJoystick": {
 			"assetPath": "AirshipPackages/@Easy/Core/Shared/Input/Mobile/TouchJoystick.ts",
 			"name": "TouchJoystick"
-		},
-		"AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipButton@AirshipButton": {
-			"assetPath": "AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipButton.ts",
-			"name": "AirshipButton"
 		},
 		"AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipToggle@AirshipToggle": {
 			"assetPath": "AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipToggle.ts",
@@ -349,13 +349,13 @@
 			"assetPath": "AirshipPackages/@Easy/Core/Shared/Viewmodel/AirshipCharacterViewmodel.ts",
 			"name": "AirshipCharacterViewmodel"
 		},
-		"AirshipPackages/@Easy/Core/Shared/Chat/ChatManager@ChatManager": {
-			"assetPath": "AirshipPackages/@Easy/Core/Shared/Chat/ChatManager.ts",
-			"name": "ChatManager"
-		},
 		"AirshipPackages/@Easy/Core/Shared/Inventory/AirshipInventoryTile@AirshipInventoryTile": {
 			"assetPath": "AirshipPackages/@Easy/Core/Shared/Inventory/AirshipInventoryTile.ts",
 			"name": "AirshipInventoryTile"
+		},
+		"AirshipPackages/@Easy/Core/Shared/Chat/ChatManager@ChatManager": {
+			"assetPath": "AirshipPackages/@Easy/Core/Shared/Chat/ChatManager.ts",
+			"name": "ChatManager"
 		},
 		"AirshipPackages/@Easy/Core/Shared/Item/ItemDefinition/ItemDefinitionComponent@ItemDefinitionComponent": {
 			"assetPath": "AirshipPackages/@Easy/Core/Shared/Item/ItemDefinition/ItemDefinitionComponent.ts",
@@ -384,6 +384,11 @@
 		"AirshipPackages/@Easy/Core/Shared/Types/Generated.d@Space": {
 			"World": 0,
 			"Self": 1
+		},
+		"AirshipPackages/@Easy/Core/Shared/Inventory/InventoryUIVisibility@InventoryUIVisibility": {
+			"Always": 0,
+			"WhenHasItems": 1,
+			"Never": 2
 		},
 		"AirshipPackages/@Easy/Core/Shared/MainMenu/Components/AirshipButtonClickEffect@AirshipButtonClickEffect": {
 			"None": 0,
