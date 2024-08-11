@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Packages/gg.easy.airship/Runtime/Scenes/Login.unity
     guid: 7cbc249662f9a43ff80aee8c8cb84984
   - enabled: 1
+    path: Packages/gg.easy.airship/Runtime/Scenes/Disconnected.unity
+    guid: e423424791269405c8e0d4329fa00799
+  - enabled: 1
+    path: Packages/gg.easy.airship/Runtime/Scenes/AirshipUpdateApp.unity
+    guid: 8efa5826c45cd4f45a9df7196e968b2d
+  - enabled: 1
     path: Assets/Scenes/DefaultScene.unity
     guid: e9baa4b514ca7466592cd454e7e23b0a
   m_configObjects: {}
