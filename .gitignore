@@ -96,6 +96,7 @@ ProjectSettings/GvhProjectSettings.xml
 Assets/FishNet.Config.XML
 
 *.asbuildinfo
+*.aseditorinfo
 **/airship_pkg_download_success.txt
 
 # Ignore all non-local packages
