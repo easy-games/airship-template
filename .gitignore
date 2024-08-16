@@ -99,6 +99,9 @@ Assets/FishNet.Config.XML
 *.aseditorinfo
 **/airship_pkg_download_success.txt
 
+bundles/
+Assets/TypeScriptEditorMetadata.aseditorinfo
+
 # Ignore all non-local packages
 
 Assets/AirshipPackages/@Easy/CoreMaterials/*
@@ -108,5 +111,3 @@ Assets/AirshipPackages/@Easy/CoreMaterials.meta
 Assets/AirshipPackages/@Easy/Core/*
 
 Assets/AirshipPackages/@Easy/Core.meta
-
-bundles/
