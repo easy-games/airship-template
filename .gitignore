@@ -88,6 +88,8 @@ Assets/Editor/AuthConfigData.confg.meta
 Assets/TestSpace.meta
 .idea/.idea.Airship-Bedwars/.idea/.gitignore
 Assets/Typescript~/.idea/
+Assets/Typescript~/node_modules
+Assets/Typescript~/out
 .idea/
 ProjectSettings/GvhProjectSettings.xml
 
