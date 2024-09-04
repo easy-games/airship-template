@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c5149db6d4040aab3c8f04e92c6d2b1, type: 3}
-  m_Name: EditorIcons
+  m_Script: {fileID: 11500000, guid: 48811be2299a41a0b92451957a82d5b9, type: 3}
+  m_Name: NetworkPrefabCollection
   m_EditorClassIdentifier: 
-  signedInIcon: 
+  networkPrefabs:
+  - {fileID: 2116186187299375306, guid: 912d9eca69aeef24fb912298e044243b, type: 3}
