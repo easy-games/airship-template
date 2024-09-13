@@ -1,7 +1,7 @@
 import { NetworkSignal } from "@Easy/Core/Shared/Network/NetworkSignal";
 
 /*
- * These are example remote events. They haven't been hooked up to anything yet.
+ * These are example remote events. They don't do anything and are just here as an example.
  */
 export const Network = {
 	ClientToServer: {
