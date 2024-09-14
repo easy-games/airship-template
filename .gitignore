@@ -98,7 +98,9 @@ ProjectSettings/GvhProjectSettings.xml
 Assets/FishNet.Config.XML
 
 *.asbuildinfo
+*.asbuildinfo.meta
 *.aseditorinfo
+*.aseditorinfo.meta
 **/airship_pkg_download_success.txt
 
 bundles/
