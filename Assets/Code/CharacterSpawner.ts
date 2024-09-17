@@ -15,6 +15,7 @@ export default class CharacterSpawner extends AirshipBehaviour {
 			// Respawn characters when they die
 			Airship.Damage.onDeath.Connect((damageInfo) => {
 				const character = damageInfo.gameObject.GetAirshipComponent<Character>();
+				character?.Despawn();
 				if (character?.player) {
 					character.player.SpawnCharacter(this.transform.position, {
 						lookDirection: this.transform.forward,
