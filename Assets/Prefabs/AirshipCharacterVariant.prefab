@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228372, guid: 4bfcf38072e582e42b941b472d5f3dcb, type: 3}
       propertyPath: m_Name
-      value: TemplateGameCharacter
+      value: AirshipCharacterVariant
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: 4bfcf38072e582e42b941b472d5f3dcb, type: 3}
       propertyPath: m_LocalPosition.x
