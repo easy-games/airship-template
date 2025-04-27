@@ -17,8 +17,8 @@ TagManager:
   - VisuallyHidden
   - IgnoreCollision
   - AvatarEditor
-  - 
-  - 
+  - LocalStencilMask
+  - StencilMask
   - 
   - 
   - 
