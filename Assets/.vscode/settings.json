@@ -16,13 +16,17 @@
     "**/*.anim": true,
     "**/*.pdf": true,
     "FishNet.Config.XML": true,
-    "Typescript~": true,
     "TextMesh Pro": true,
-    "AirshipPackages/@Easy": true,
+    "AirshipPackages/@Easy": true
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "eslint.validate": ["typescript", "json"],
+  "eslint.nodePath": "./Typescript~/node_modules",
+  "eslint.options": {
+    "overrideConfigFile": "./Typescript~/eslint.config.ts"
+  }
 }
