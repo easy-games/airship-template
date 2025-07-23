@@ -26,6 +26,7 @@
   "files.eol": "\n",
   "eslint.validate": ["typescript", "json"],
   "eslint.nodePath": "./Typescript~/node_modules",
+  "eslint.workingDirectories": ["."],
   "eslint.options": {
     "overrideConfigFile": "./Typescript~/eslint.config.ts"
   }
