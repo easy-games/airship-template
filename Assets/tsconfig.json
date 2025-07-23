@@ -26,5 +26,5 @@
 		"runtimePath": "AirshipPackages/@Easy/Core/Shared/Runtime"
 	},
 	"include": ["**/*.ts", "**/*.tsx"],
-	"exclude": ["Typescript~/node_modules"]
+	"exclude": ["Typescript~"]
 }
