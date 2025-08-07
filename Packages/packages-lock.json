@@ -332,7 +332,7 @@
       "url": "https://packages.unity.com"
     },
     "gg.easy.airship": {
-      "version": "0.1.2164",
+      "version": "0.1.2166",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -345,7 +345,6 @@
         "com.unity.ugui": "3.0.0",
         "com.unity.visualscripting": "1.9.5",
         "com.unity.inputsystem": "1.13.0",
-        "com.unity.visualeffectgraph": "17.0.3",
         "com.unity.splines": "2.8.1"
       },
       "url": "https://registry.npmjs.org"
