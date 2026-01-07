@@ -19,9 +19,9 @@ export default tseslint.config(
 	{
 		rules: {
 			"prefer-const": "warn", // prefer warning
-			"@typescript-eslint/no-unused-vars": "warn", // prefer warning
 			"@typescript-eslint/ban-ts-comment": "error", // AirshipTS does not allow this
 			"@typescript-eslint/no-namespace": "off", // Namespace syntax is allowed
+			"@typescript-eslint/no-unused-vars": "off", // Default no-unused-vars to off.
 		},
 	},
 );
