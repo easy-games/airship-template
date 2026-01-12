@@ -23,6 +23,7 @@ export default tseslint.config(
 			"@typescript-eslint/no-namespace": "off", // Namespace syntax is allowed
 			"@typescript-eslint/no-unused-vars": "off", // Default no-unused-vars to off.
 			"no-empty": "off",
+			"no-constant-condition": "off",
 		},
 	},
 );
